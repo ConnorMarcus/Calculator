@@ -1,0 +1,65 @@
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightblue;
+    border: black solid;
+    padding: 0;
+}
+
+#C, #\= {
+    grid-area: span 1 / span 2;
+    width: 200px;
+}
+
+.zero {
+    grid-area: span 1 / span 3;
+    width: 300px;
+}
+
+button:hover {
+    background-color: lightsteelblue;
+}
+
+button:active {
+    background-color: white;
+}
+
+#displayTop {
+    border-top: black solid;
+}
+
+#displayBottom {
+    border-bottom: black solid;
+}
+
+#displayTop, #displayBottom {
+    grid-area: span 1 / span 5;
+    width: 494px;
+    height: 47px;
+    border-left: black solid;
+    border-right: black solid;
+    background-color: mintcream;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+}
+
+#equation, #result {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
